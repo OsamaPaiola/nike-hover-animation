@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="box">
+        <h2 class="name">Product Name</h2>
+        <a href="#">Buy Now</a>
+        <div class="circle"></div>
+        <img class="product" src="./img/nike-1.png" alt="">
+      </div>
+
+      <div class="box">
+        <h2 class="name">Product Name</h2>
+        <a href="#">Buy Now</a>
+        <div class="circle"></div>
+        <img class="product" src="./img/nike-2.png" alt="">
+      </div>
+
+      <div class="box">
+        <h2 class="name">Product Name</h2>
+        <a href="#">Buy Now</a>
+        <div class="circle"></div>
+        <img class="product" src="./img/nike-3.png" alt="">
+      </div>
+
+    </div>
+
+    <script src="./vanilla-tilt.min.js">
+
+    </script>
+
+
+    <script>
+    	VanillaTilt.init(document.querySelectorAll(".box"), {
+    		max: 30,
+    		speed: 500
+    	});
+
+    </script>
+  </body>
+</html>
