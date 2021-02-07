@@ -132,16 +132,16 @@ body{
 }
 
 .container .box:nth-child(1) .circle,
-.container .box:nth-child(1) .buy {
+.container .box:nth-child(1) a {
   background: #379bf7;
 }
 
 .container .box:nth-child(2) .circle,
-.container .box:nth-child(2) .buy {
+.container .box:nth-child(2) a {
   background: #9bdc28;
 }
 
 .container .box:nth-child(3) .circle,
-.container .box:nth-child(3) .buy {
+.container .box:nth-child(3) a{
   background: #fb4b4f;
 }
